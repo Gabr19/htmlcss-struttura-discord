@@ -58,14 +58,14 @@ main{
 
 }
 
-.riga{
+.pagina{
     width: 1000px;
     height: 600px;
 }
 
 /* PRIMA RIGA */
 
-.prima.riga{
+.prima.pagina{
     display: flex;
     background-color: grey;
     justify-content: center;
@@ -94,7 +94,7 @@ main{
 
 
 /* SECONDA RIGA */
-.seconda.riga{
+.seconda.pagina{
 
     display: flex;
 
@@ -122,7 +122,7 @@ main{
 
 /* ULTIMA RIGA */
 
-.ultima.riga{
+.ultima.pagina{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,16 +130,38 @@ main{
 
 }
 
-.contenuto-ultima-riga{
+.contenuto-ultima-pagina{
     height: 400px;
     width: 600px;
     background-color: green;
 }
-
-
 /* FINE ULTIMA RIGA */
 
+/* FOOTER */
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uno{
+    height: 400px;
+    width: 200px;
+    background-color: pink;
+
+}
+
+.foot{
+    height: 400px;
+    width: 100px;
+    background-color: lightseagreen;
+    border: 1px dashed black;
+
+
+}
+
+/* FINE FOOTER */
 
 
 /* FINE CORPO CENTRALE */
