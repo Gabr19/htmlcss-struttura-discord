@@ -114,15 +114,30 @@ main{
     height: 300px;
     width: 400px;
     background-color: pink;
-
 }
 
 
 
 /* FINE SECONDA RIGA */
 
+/* ULTIMA RIGA */
+
+.ultima.riga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contenuto-ultima-riga{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+}
 
 
+/* FINE ULTIMA RIGA */
 
 
 
