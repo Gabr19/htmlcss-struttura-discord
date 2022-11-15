@@ -22,8 +22,39 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.conteiner-upper-row{
+    width: 70%;
+    min-height: 50%;
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenuto-headerUR{
+    display: inline-block;
+    background-color: orange;
+    height: 80px;
+    min-width: 100px;
+    padding: 5px 5px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;}
+
+li{
+    padding: 3px;
 
 }
+
+
+
+
+
 
 .low-row{
     background-color: blue;
@@ -33,12 +64,7 @@ header{
     align-items: center;
 }
 
-.contenuto-headerUR{
-    display: inline-block;
-    background-color: orange;
-    height: 80px;
-    width: 400px;
-}
+
 
 .contenuto-headerLR{
     display: inline-block;
@@ -64,7 +90,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 /* PRIMA RIGA */
@@ -144,10 +170,13 @@ main{
 /* FOOTER */
 
 footer{
+    background-color: black;
+    width: 1000px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    flex-direction: column;
 }
 
 .up-footer{
@@ -157,14 +186,14 @@ footer{
 }
 
 #uno{
-    height: 400px;
+    height: 300px;
     width: 200px;
     background-color: pink;
 
 }
 
 .foot{
-    height: 400px;
+    height: 300px;
     width: 100px;
     background-color: lightseagreen;
     border: 1px dashed black;
